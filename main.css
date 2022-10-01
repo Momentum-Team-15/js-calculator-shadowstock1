@@ -1,0 +1,38 @@
+body {
+  background-color: lightgrey;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 410px;
+  border: 5px solid white;
+}
+
+.button {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(117, 177, 92);
+  font-size: 50px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 1px;
+  line-height: 100px;
+}
+
+.white {
+  color: white;
+}
+
+#display {
+  background-color: rgb(117, 177, 92);
+  height: 100px;
+  min-width: 305px;
+  text-align: right;
+  line-height: 100 px;
+  color: white;
+  font-size: 45px;
+}
